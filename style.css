@@ -5,7 +5,7 @@
  }
 
  body {
-     margin: 100px;
+     margin: 2%;
  }
 
 
@@ -108,23 +108,7 @@
 
 
 
- .overskift {
-     flex-wrap: wrap;
-     text-align: center;
- }
 
- .overskriftchild h1 {
-     font-family: 'Luckiest Guy', cursive;
-     font-size: 10vw;
-     color: rgb(239, 129, 108);
-     display: flex;
-     flex-basis: 100px;
-     flex-grow: 1;
-     align-content: center;
-     justify-content: center;
-     margin-top: 50px;
-
- }
 
  @media only screen and (max-width: 950px) {
      nav {
