@@ -61,6 +61,17 @@
      width: 100%;
  }
 
+ .banner {
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+     width: 60%;
+     margin: auto;
+
+ }
+
+
+
  #liste {
      display: grid;
      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
