@@ -1,3 +1,27 @@
+ @font-face {
+     font-family: 'neotericbold';
+     src: url('fonts/neoteric_-_bold_demo_version-webfont.woff2') format('woff2'),
+         url('fonts/neoteric_-_bold_demo_version-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+
+
+
+ @font-face {
+     font-family: 'leixodemo';
+     src: url('fonts/leixo-demo-webfont.woff2') format('woff2'),
+         url('fonts/leixo-demo-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+
+
+
  * {
      margin: 0;
      padding: 0;
@@ -45,6 +69,11 @@
 
  button:active {
      transform: translateY(4px);
+ }
+
+ h1 {
+     font-family: 'leixodemo';
+     font-weight: 100;
  }
 
  /*--------------------------------------BUTTONS LAYOUT SLUT---------------------------------*/
