@@ -178,3 +178,16 @@
      font-size: 1vw;
      font-weight: bold;
  }
+
+
+
+ .social {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .twitter {
+     flex-grow:
+         1;
+     flex-basis: 300;
+ }
