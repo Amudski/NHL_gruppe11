@@ -77,6 +77,11 @@
      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
      grid-gap: 1em;
 
+
+ }
+
+ article {
+     background-color: rgba(221, 224, 226, 0.27);
  }
 
  #detalje {
