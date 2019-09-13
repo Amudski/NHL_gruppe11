@@ -94,12 +94,13 @@ img large {
 }
 
 .banner {
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    width: 100%;
-    margin: auto;
 
+    background-image: url(assets/logo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: center;
 
 }
 
@@ -220,20 +221,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 950px) {
     nav {
         display: flex;
@@ -253,6 +240,7 @@ p {
         text-align: left;
 
     }
+
 
 
 }
