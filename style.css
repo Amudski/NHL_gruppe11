@@ -243,12 +243,22 @@ p {
 
     .banner {
 
-
+        margin-bottom: 20px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 0;
     }
 
+    #liste {
+        margin: 0;
+        padding: 10px;
+
+    }
+
+    #detalje .team {
+        width: 100vw;
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width: 950px) {
