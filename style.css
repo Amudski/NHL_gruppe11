@@ -100,6 +100,7 @@ img large {
     width: 100%;
     margin: auto;
 
+
 }
 
 
@@ -246,4 +247,11 @@ p {
 
     }
 
+}
+
+/*@media only screen and (max-width: 950px) {
+     h1 {
+        height: 80px;
+         widows: 5px;
+    }
 }
