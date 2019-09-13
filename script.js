@@ -53,6 +53,7 @@ function visDetalje(team) {
     document.querySelector("#detalje .win").textContent = "Vundet: " + team.gsx$wins.$t;
     document.querySelector("#detalje .lose").textContent = "Tabte: " + team.gsx$losses.$t;
     document.querySelector("#detalje .pts").textContent = "Samlet point: " + team.gsx$pts.$t;
+    document.querySelector("#detalje .beskrivelse").textContent = "Beskrivelse: " + team.gsx$beskrivelse.$t;
 
     document.querySelector("#detalje img").src = "large/" + team.gsx$billede.$t + ".png";
     document.querySelector("#detalje img").alt = `Portræt af ${team.gsx$billede.$t}`;
