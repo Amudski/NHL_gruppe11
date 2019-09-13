@@ -240,16 +240,18 @@ p {
         flex-wrap: wrap;
         flex-direction: column;
         height: auto;
-        margin: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
         width: 1
     }
 
     nav button {
-        margin: 0;
+        margin: 2px;
         flex-grow: 1;
         height: 50px;
         width: 100%;
         text-align: left;
+
     }
 
 
