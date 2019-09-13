@@ -241,7 +241,9 @@ p {
 
     }
 
-
+    .banner {
+        height: 200px;
+    }
 
 }
 
