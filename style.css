@@ -236,7 +236,28 @@ p {
 
 @media only screen and (max-width: 950px) {
     nav {
-        width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        width: 1
+    }
+
+    nav button {
+        margin: 0;
+        flex-grow: 1;
+        height: 50px;
+        width: 100%;
+        text-align: left;
+    }
+
+
+}
+
+@media only screen and (max-width: 950px) {
+    h1 {
+        font-size: 3rem;
     }
 }
 
@@ -247,11 +268,4 @@ p {
 
     }
 
-}
-
-/*@media only screen and (max-width: 950px) {
-     h1 {
-        height: 80px;
-         widows: 5px;
-    }
 }
