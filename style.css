@@ -303,6 +303,17 @@ p {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    #liste {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 1em;
+        margin: 0;
+
+    }
+}
+
+
 @media screen and (max-width:400px) {
 
     footer_style {
