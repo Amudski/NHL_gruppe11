@@ -66,6 +66,10 @@ button p {
     font-size: 1.5rem;
 }
 
+.valgt {
+    background-color: rgba(248, 151, 22, 0.83);
+}
+
 h1 {
     font-family: 'leixodemo';
     font-size: 7rem;
@@ -132,6 +136,7 @@ article {
     top: 0;
     right: 0;
     font-size: 3rem;
+    background-color: rgba(248, 151, 22, 0.83);
 }
 
 #detalje .team {
