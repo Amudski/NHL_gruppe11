@@ -16,9 +16,7 @@
     list-style-type: none;
 }
 
-body {
-    margin: 2%;
-}
+
 
 
 /*--------------------------------------BUTTONS LAYOUT---------------------------------*/
@@ -41,18 +39,17 @@ button {
     min-width: 80px;
     margin: auto;
     border: none;
-    border-radius: 5px;
-    border: 2px solid #f77100;
+    background-color: rgba(221, 224, 226, 0.27);
 
 
 }
 
 button:hover {
-    background-color: antiquewhite;
+    background-color: rgba(248, 151, 22, 0.83);
     background-size: 100% 100%;
     color: #27262c;
     animation: spring 300ms ease-out;
-    text-shadow: 0 -1px 0 #ef816c;
+    text-shadow: 0 -1px 0 #f78f28;
     font-weight: bold;
 
 
@@ -63,8 +60,12 @@ button:active {
 }
 
 button p {
-    font-family: 'neotericbold';
+    font-family: 'Doppio One', sans-serif;
     font-size: 1.5rem;
+}
+
+.valgt {
+    background-color: rgba(248, 151, 22, 0.83);
 }
 
 h1 {
@@ -109,7 +110,9 @@ img large {
 #liste {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /*pixel størrelse bestemmer hvor mange koloner der er på henholdsvis web og mobil */
     grid-gap: 1em;
+    /*mellemrum mellem boksene*/
     margin: 0 150px 0 150px;
 
 }
@@ -120,12 +123,14 @@ article {
 
 #detalje {
     position: fixed;
+    /* den bliver tilpasset relativt i forhold til browsern*/
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(194, 229, 249, 60%);
+    background: rgba(10, 10, 10, 0.85);
     overflow: scroll;
+    /*man kan scrolle i pop up*/
 }
 
 #detalje .luk {
@@ -133,6 +138,7 @@ article {
     top: 0;
     right: 0;
     font-size: 3rem;
+    background-color: rgba(248, 151, 22, 0.83);
 }
 
 #detalje .team {
@@ -148,39 +154,48 @@ article {
     padding: 1em;
     border: 1px solid;
     cursor: pointer;
+    /*cusor på knapper */
     border-color: rgba(128, 128, 128, 0.26);
 
 }
 
 
 h2 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Doppio One', sans-serif;
     font-size: 2rem;
+    font-weight: 400;
     text-align: center;
 }
 
 h3 {
-    font-family: helvetica;
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-family: 'Doppio One', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
 
 }
 
 #detalje h3.teams {
-    font-size: 3rem;
-    font-family: helvetica;
+    font-family: 'Doppio One', sans-serif;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 #detalje p.beskrivelse {
     font-size: 1.5rem;
-    font-family: helvetica;
+    font-weight: 400;
+    font-family: 'Doppio One', sans-serif;
     margin-bottom: 10px;
 }
 
 p {
     font-size: 1vw;
     font-weight: bold;
+}
+
+.overskrift p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Doppio One', sans-serif;
 }
 
 /*--------------------------------------FOOTER-----------------------------------------------*/
@@ -257,6 +272,7 @@ p {
         background-position: 50% 0;
     }
 
+
     #liste {
         margin: 0;
         padding: 10px;
@@ -291,10 +307,34 @@ p {
     }
 }
 
+
+
+
+
+
 @media only screen and (max-width: 950px) {
     h1 {
         font-size: 3rem;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    #liste {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 1em;
+        margin: 0;
+
+    }
+
+    .banner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% 30%;
+
+
+    }
+
 }
 
 @media screen and (max-width:400px) {

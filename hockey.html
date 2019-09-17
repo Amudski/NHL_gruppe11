@@ -4,15 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>nhl</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <!---->
     <div class="banner"></div>
-    <h1>NHL RANKING</h1>
+    <!--banner class som indeholde splash-->
+    <h1>NHL Oversigt</h1>
+    <div class="overskrift">
+        <p>På denne hjemmeside kan du finde informationer om hold I NHL</p>
+    </div>
+
+    <!--vores klikbar knapper -->
     <nav>
         <button data-kategori="alle" class="valgt">
             <p>Alle</p>
@@ -29,16 +35,13 @@
         <button data-kategori="Pacific">
             <p>Pacific</p>
         </button>
-        <!--
-        <button data-køn="sideorders">
-            <p>Sideorders</p>
-        </button>
--->
 
     </nav>
 
     <section id="liste"></section>
+    <!--tom liste- her skal holdene indlæses -->
 
+    <!--single view popup funktioner -->
     <section id="detalje">
         <article class="team">
             <button class="luk">X</button>
@@ -52,7 +55,7 @@
 
         </article>
     </section>
-
+    <!--tom liste her bliver data indsat på startsiden  -->
     <template>
         <article class="team">
             <img src="" alt="" class="profil-billede">
@@ -62,7 +65,7 @@
     <script src="script.js"></script>
 
 
-
+    <!--footer style -->
     <footer>
         <div class="footer_style"></div>
         <div class="footer_overskrift">
@@ -71,10 +74,12 @@
         <div class="social">
             <div class="twitter">
                 <a class="twitter-timeline" data-width="600" data-height="500" href="https://twitter.com/NHL?ref_src=twsrc%5Etfw">Tweets by NHL</a>
+                <!--HENTET KODE FRA NET, viser twitter timeline -->
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="map">
                 <iframe src="https://www.google.com/maps/d/embed?mid=1nVc6URMvockTeYlo1MOAvPUt0AY" width="500" height="480"></iframe></div>
+            <!--HENTET KODE FRA NET, viser map over hold og stater -->
         </div>
 
     </footer>
